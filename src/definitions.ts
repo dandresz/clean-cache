@@ -1,3 +1,4 @@
 export interface CleanCachePlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  clearCache(): Promise<void>;
+  optimizeDevice(): Promise<void>;
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@daniel/clean-cache",
-  "version": "0.0.1",
+  "name": "dasz-clean-cache",
+  "version": "0.0.3",
   "description": "Plugin para limpiar la caché del dispositivo y optimizar la memoria",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

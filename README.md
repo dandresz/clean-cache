@@ -13,24 +13,28 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`clearCache()`](#clearcache)
+* [`optimizeDevice()`](#optimizedevice)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### clearCache()
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+clearCache() => Promise<void>
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
+--------------------
 
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+### optimizeDevice()
+
+```typescript
+optimizeDevice() => Promise<void>
+```
 
 --------------------
 
